@@ -1,0 +1,217 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.6;
+    background: #121212;
+    color: #f4f4f4;
+    scroll-behavior: smooth;
+}
+
+/* Header */
+header {
+    background: rgba(31, 31, 31, 0.95);
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Navigation */
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    margin: 0 1rem;
+}
+nav ul li a {
+    color: #f4f4f4;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+nav ul li a:hover, nav ul li a:focus {
+    color: #007bff;
+}
+
+/* Hero Section */
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 0 2rem;
+    background: linear-gradient(135deg, #007bff 0%, #6610f2 100%);
+    color: #fff;
+}
+
+/* About Section */
+#about {
+    padding: 4rem 2rem;
+    background: #1f1f1f;
+    text-align: center;
+}
+
+/* Skills Section */
+#skills {
+    padding: 4rem 2rem;
+    background: #1f1f1f;
+    text-align: center;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.skill-category {
+    flex: 1 1 45%;
+    margin: 1rem 0;
+}
+
+.skill-category h3 {
+    font-size: 1.5rem;
+    color: #ff7b00;
+    margin-bottom: 1rem;
+}
+
+.skill {
+    margin-bottom: 1rem;
+}
+
+.skill p {
+    margin: 0;
+}
+
+.progress-bar {
+    background: #333;
+    height: 10px;
+    border-radius: 5px;
+}
+
+.progress-bar span {
+    display: block;
+    height: 100%;
+    background: #007bff;
+    border-radius: 5px;
+}
+
+/* Experience Section */
+#experience {
+    padding: 4rem 2rem;
+    background: #1f1f1f;
+    text-align: center;
+}
+
+.experience-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.experience-item {
+    background: #333;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.experience-item h3 {
+    color: #ff7b00;
+}
+
+.experience-duration {
+    font-style: italic;
+    color: #ccc;
+}
+
+.experience-item ul {
+    text-align: left;
+    list-style: inside square;
+}
+
+.experience-item li {
+    margin: 0.5rem 0;
+    color: #f4f4f4;
+}
+
+/* Projects Section */
+#projects {
+    padding: 4rem 2rem;
+    background: #1f1f1f;
+    text-align: center;
+}
+
+.project-card {
+    background: #333;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+}
+
+.project-card h3 {
+    margin: 1rem 0;
+}
+
+.project-card a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+/* Contact Section */
+#contact {
+    padding: 4rem 2rem;
+    background: #1f1f1f;
+    text-align: center;
+}
+
+#contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#contact form input, #contact form textarea {
+    padding: 0.5rem;
+    margin: 1rem 0;
+    background: #333;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+#contact form button {
+    background: #007bff;
+    color: white;
+    padding: 0.5rem 2rem;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    background: #2a2a2a;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.social-links {
+    margin-top: 1rem;
+}
+
+.social-links a {
+    color: #ff7b00;
+    margin: 0 1rem;
+    font-weight: bold;
+}
