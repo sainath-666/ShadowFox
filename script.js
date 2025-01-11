@@ -1,4 +1,3 @@
-// Using ES6+ features for smooth scrolling
 document.querySelectorAll('a.smooth-scroll').forEach(anchor => {
     anchor.addEventListener('click', e => {
         e.preventDefault();
@@ -10,7 +9,6 @@ document.querySelectorAll('a.smooth-scroll').forEach(anchor => {
     });
 });
 
-// Typewriter effect for the introduction text
 const text = "Full Stack Web and App Developer | Data Analyst | Cloud Practitioner";
 let i = 0;
 
